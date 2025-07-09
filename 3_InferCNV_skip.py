@@ -37,7 +37,8 @@ for path in [raw_cnv_path, harmony_cnv_path, comparison_path]:
 
 #%% Step 1: Subset Epithelial Cells from Integration Data
 print("\n📋 Step 1: Subsetting Epithelial Cells from Integration Data")
-print("="*60)
+# print("="*60)
+print("="*80)
 
 # Load integrated data if not already loaded
 if 'final_integrated' not in locals():
